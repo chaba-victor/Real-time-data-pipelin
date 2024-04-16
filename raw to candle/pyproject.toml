@@ -2,17 +2,15 @@
 name = "src"
 version = "0.1.0"
 description = ""
-authors = ["Chaba <chabavictor7@gmail.com>"]
+authors = ["Chaba <pchabavictor7@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-websocket-client = "^1.7.0"
 pydantic = "^2.5.2"
 pyyaml = "^6.0.1"
 python-dotenv = "^1.0.0"
-fire = "^0.5.0"
-quixstreams = "2.2.0a0"
+quixstreams = "^2.3.1"
 
 
 [tool.poetry.group.dev.dependencies]
