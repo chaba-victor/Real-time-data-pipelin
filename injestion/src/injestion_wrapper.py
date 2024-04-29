@@ -8,7 +8,7 @@ from quixstreams.platforms.quix import QuixKafkaConfigsBuilder, TopicCreationCon
 
 logger = logging.getLogger()
 
-class ProducerWrapper:
+class InjestionWrapper:
     """
     Wrapper around the quixstreams.kafka.Producer class, to handle both
     scenarios of

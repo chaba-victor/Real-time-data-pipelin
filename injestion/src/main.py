@@ -10,7 +10,7 @@ from src.utils import (
     load_env_vars,
 )
 from src.kraken_api.api import KrakenTradesAPI
-from src.producer_wrapper import ProducerWrapper
+from src.injestion_wrapper import InjestionWrapper
 
 
 logger = logging.getLogger()
